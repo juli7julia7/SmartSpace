@@ -1,46 +1,122 @@
-<!DOCTYPE html> <header class="header">
-       <div class="header__container">
-        <a href="" class="header__logo">SmartSpace</a>
-        <nav class="header__menu menu">
-            <ul class="menu__list">
-                <li class="menu__item">
-                    <a href="" class="menu__link">Home</a>
-                </li>
-                <li class="menu__item">
-                    <a href="" class="menu__link">About</a>
-                </li>
-                <li class="menu__item">
-                    <a href="" class="menu__link">Service</a>
-                </li>
-                <li class="menu__item">
-                    <a href="" class="menu__link">Portfolio</a>
-                </li>
-                <li class="menu__item">
-                    <a href="" class="menu__link">Blog</a>
-                </li>
-                <li class="menu__item">
-                    <a href="" class="menu__link">Contact</a>
-                </li>
-            </ul>
-        </nav>
-       </div>
-    </header>
+<!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700,800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700,800&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>SmartSpace</title>
 </head>
+
 <body>
-   <wrapper class="wrapper">
-   
-    <main class="main"></main>
-    <footer class="footer"> 
-        
-    </footer>
-   </wrapper> 
+    <wrapper class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <a href="" class="header__logo">SmartSpace</a>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">About</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Service</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Portfolio</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Blog</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <section class="main__hero hero">
+                <div class="hero__container">
+                    <div class="hero__body body-hero">
+                        <div class="body-hero__content content-hero">
+                            <div class="content-hero__body">
+                                <h2 class="content-hero__subtitle">RESIDENTIAL & OFFICE SPACES</h2>
+                                <h1 class="content-hero__title">Smart Living Style
+                                    for Smart People</h1>
+                                <p class="content-hero__text">Much did had call new drew that kept. Limits expect wonder
+                                    law
+                                    she. Now has you views woman noisy match money rooms.</p>
+                            </div>
+                            <form action="" class="content-hero__form form-content">
+                                <input type="text" class="form-content__input"
+                                    placeholder="Enter Zipcode to search properties">
+                                <a class="form-content__button">Search Now!</a>
+                            </form>
+                        </div>
+                      
+
+                        <!-- Slider main container -->
+                        <div class="body-hero__slder slider-hero swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="slider-hero__swiper swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="slider-hero__slide swiper-slide"><img src="./img/hero/header.Image.jpg" alt="slider hero"></div>
+                                <div class="slider-hero__slide swiper-slide"><img src="./img/hero/header.Image.jpg" alt="slider hero"></div>
+                                <div class="slider-hero__slide swiper-slide"><img src="./img/hero/header.Image.jpg" alt="slider hero"></div>
+                                ...
+                            </div>
+                
+
+                            <!-- If we need navigation buttons -->
+                            <div class="slider-hero__arrow swiper-button-prev"></div>
+                            <div class="slider-hero__arrow swiper-button-next"></div>
+
+                           
+                        </div>
+                    </div>
+                    <div class="hero__partners partners-hero">
+                        <h5 class="partners-hero__title">
+                            Our Amazing Partners
+                        </h5>
+                        <ul class="partners-hero__list">
+                            <li class="partners-hero__item">
+                                <img src="./img/hero/buzz.svg" alt="image of Buzz">
+                            </li>
+                            <li class="partners-hero__item">
+                                <img src="./img/hero/chase.svg" alt="image of CHASE">
+                            </li>
+                            <li class="partners-hero__item">
+                                <img src="./img/hero/microsoft.svg" alt="image of Microsoft">
+                            </li>
+                            <li class="partners-hero__item">
+                                <img src="./img/hero/gucc.svg" alt="image of GUCC">
+                            </li>
+                            <li class="partners-hero__item">
+                                <img src="./img/hero/airbnb.svg" alt="image of airbnb">
+                            </li>
+                            <li class="partners-hero__item">
+                                <img src="./img/hero/uber.svg" alt="image of uber">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+
+        </footer>
+    </wrapper>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
