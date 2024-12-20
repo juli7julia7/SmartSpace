@@ -6,6 +6,14 @@
 	border: none;
 	box-sizing: border-box;
 }
+a,
+*::before,
+*::after{
+display: inline-block;
+}
+*{
+  -webkit-tap-highlight-color: transparent;
+}
 li {
 	list-style: none;
 }

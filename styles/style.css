@@ -226,6 +226,9 @@ body {
     left: 0;
 }
 
+.scroll-off{
+    overflow: hidden;
+}
 /* ******************************************************* */
 .hero {
     padding-bottom: 110px;
